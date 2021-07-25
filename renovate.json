@@ -1,5 +1,8 @@
 {
+  "semanticCommits": "enabled",
+  "separateMajorMinor": false,
   "extends": [
-    "config:base"
+    "group:all",
+    "schedule:monthly"
   ]
 }

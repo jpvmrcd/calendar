@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./",
+    "module": "es6",
+    "target": "es5",
+
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "tests/**",
+    "dist"
+  ]
+}

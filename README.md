@@ -126,7 +126,7 @@ Generates a calendar based on year and month arguments. If no arguments are pass
 | dayNames | `string[7]` | Sets the days of the week. Should start from Sunday. |
 | startDay | `string` | Sets the start day of the week. The value for `startDay` should match one of the values defined in `dayNames`. Defaults to `Sun`. |
 | onCellAdded | (args: [onCellAddedArgs](#onCellAddedArgs)) => void | Event triggered on every calendar cell added to the calendar. |
-| onDateClicked | (args: [onDateClicked](#onDateClicked)) => void | Event triggered on every calendar date cell click. |
+| onDateClicked | (args: [onDateClickedArgs](#onDateClickedArgs)) => void | Event triggered on every calendar date cell click. |
 
 ### `onCellAddedArgs`
 | Name | Type | Description |
@@ -134,7 +134,7 @@ Generates a calendar based on year and month arguments. If no arguments are pass
 | td | `HTMLTableCellElement` | Current `td` being rendered. |
 | dateISOString | `string` | ISO formatted date of the cell being rendered. |
 
-### `onDateClicked`
+### `onDateClickedArgs`
 | Name | Type | Description |
 |-|-|-|
 | event | `Event` | The `Event` triggered. |
@@ -211,7 +211,7 @@ cal.render();
 ### Render calendar with `options.OnDateClicked`
 ```typescript
 const cal = new Calendar(document.getElementById('calendar'));
-cal.options.onDateClicked = (args: OnCellAddedArgs) => {
+cal.options.onDateClicked = (args: OnDateClickedArgs) => {
   console.log(args);
   // > {event: MouseEvent, dateISOString: "YYYY-MM-DD"}
 };

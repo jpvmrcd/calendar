@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/jpvmrcd/calendar/compare/v0.1.1...v0.1.2) (2023-12-01)
+
+
+### Miscellaneous
+
+* **deps:** update all dependencies ([#13](https://github.com/jpvmrcd/calendar/issues/13)) ([3971342](https://github.com/jpvmrcd/calendar/commit/3971342a2e292de726fa2cafe369411b6acd4996))
+
 ## [0.1.1](https://github.com/jpvmrcd/calendar/compare/v0.1.0...v0.1.1) (2023-11-01)
 
 

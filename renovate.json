@@ -4,5 +4,11 @@
   "extends": [
     "group:all",
     "schedule:monthly"
-  ]
+  ],
+  "packageRules": [
+      {
+        "matchPackageNames": ["eslint"],
+        "allowedVersions": "<9.0.0"
+      }
+    ]
 }

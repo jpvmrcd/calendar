@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.2](https://github.com/jpvmrcd/calendar/compare/v0.1.1...calendar-v0.1.2) (2024-09-24)
+
+
+### Miscellaneous
+
+* bootstrap releases for path: . ([#16](https://github.com/jpvmrcd/calendar/issues/16)) ([d463341](https://github.com/jpvmrcd/calendar/commit/d46334144f568cb96064a491772329d8a510752b))
+* **deps:** update all dependencies ([#13](https://github.com/jpvmrcd/calendar/issues/13)) ([3971342](https://github.com/jpvmrcd/calendar/commit/3971342a2e292de726fa2cafe369411b6acd4996))
+* **deps:** update all dependencies ([#15](https://github.com/jpvmrcd/calendar/issues/15)) ([4607dfa](https://github.com/jpvmrcd/calendar/commit/4607dfaa5e95b8df5ada5d092a03b7cf7b5f1f7d))
+* **deps:** update all dependencies ([#17](https://github.com/jpvmrcd/calendar/issues/17)) ([92a4e0b](https://github.com/jpvmrcd/calendar/commit/92a4e0bddff86ee6e13f03520a89ab4ccbd9ea15))
+* **deps:** update all dependencies ([#18](https://github.com/jpvmrcd/calendar/issues/18)) ([aa02aee](https://github.com/jpvmrcd/calendar/commit/aa02aeeb64ca093bda8c0b8bd492b244a7b14e0f))
+* **deps:** update all dependencies ([#19](https://github.com/jpvmrcd/calendar/issues/19)) ([e0955b8](https://github.com/jpvmrcd/calendar/commit/e0955b867ffbb01a6beb183b4b0ff7e740512654))
+* **deps:** update dependency rollup to v4.22.4 [security] ([#21](https://github.com/jpvmrcd/calendar/issues/21)) ([6676792](https://github.com/jpvmrcd/calendar/commit/6676792ff6dce959d2a756ba747deea441a518b1))
+
 ## [0.1.1](https://github.com/jpvmrcd/calendar/compare/v0.1.0...v0.1.1) (2023-11-01)
 
 

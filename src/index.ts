@@ -1,3 +1,8 @@
+export interface OnHeaderCellAddedArgs {
+  th: HTMLTableCellElement,
+  day: string
+}
+
 export interface OnCellAddedArgs {
   td: HTMLTableCellElement,
   dateISOString: string
@@ -9,6 +14,7 @@ export interface OnDateClickedArgs {
 }
 
 export interface CalendarOptions {
+  onHeaderCellAdded?: (arg: OnHeaderCellAddedArgs) => void,
   onCellAdded?: (arg: OnCellAddedArgs) => void,
   onDateClicked?: (arg: OnDateClickedArgs) => void,
   dayNames: [string, string, string, string, string, string, string],
@@ -42,7 +48,7 @@ export class Calendar {
     tableHead.appendChild(thr);
 
     const {
-      dayNames, startDay, onCellAdded, onDateClicked,
+      dayNames, startDay, onHeaderCellAdded, onCellAdded, onDateClicked,
     } = this.options;
     let startDayIndex = 0;
 
@@ -80,7 +86,13 @@ export class Calendar {
     for (let i = 0; i < dayNamesWithDayNumber.length; i++) {
       const th = document.createElement('th');
       const d = dayNamesWithDayNumber[i];
-      th.appendChild(document.createTextNode(d.day));
+
+      if (onHeaderCellAdded && typeof onHeaderCellAdded === 'function') {
+        onHeaderCellAdded({ th, day: d.day });
+      } else {
+        th.appendChild(document.createTextNode(d.day));
+      }
+
       thr.appendChild(th);
 
       if (firstDay === d.index) {

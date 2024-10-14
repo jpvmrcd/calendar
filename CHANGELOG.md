@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/jpvmrcd/calendar/compare/calendar-v0.1.2...calendar-v0.2.0) (2024-10-14)
+
+
+### Features
+
+* add OnHeaderCellAddedArgs ([#22](https://github.com/jpvmrcd/calendar/issues/22)) ([aa6b8cc](https://github.com/jpvmrcd/calendar/commit/aa6b8cc17902e59b6a52fa0c91c62acebc41215a))
+
 ## [0.1.2](https://github.com/jpvmrcd/calendar/compare/v0.1.1...calendar-v0.1.2) (2024-09-24)
 
 

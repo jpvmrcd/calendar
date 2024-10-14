@@ -1,4 +1,4 @@
-import { Calendar, OnCellAddedArgs } from '../src/index';
+import { Calendar, OnCellAddedArgs, OnHeaderCellAddedArgs } from '../src/index';
 
 test('null element should throw error', () => {
   expect(() => new Calendar(null).render()).toThrow('element is null');
@@ -104,6 +104,24 @@ test('calling render again should update the calendar rendered', () => {
   const calendar = new Calendar(document.createElement('div'));
   calendar.render(2021, 5);
   calendar.render(2021, 6);
+
+  expect(calendar.element.outerHTML).toMatchSnapshot();
+});
+
+test('calling onHeaderCellAdded to update rendered cell should reflect on actual rendered calendar', () => {
+  const calendar = new Calendar(document.createElement('div'));
+  calendar.options.onHeaderCellAdded = (arg: OnHeaderCellAddedArgs) => {
+    arg.th.innerHTML = `<div>${arg.day}</div>`;
+  };
+  calendar.render(2024, 10);
+
+  expect(calendar.element.outerHTML).toMatchSnapshot();
+});
+
+test('setting onHeaderCellAdded to invalid type should render default calendar', () => {
+  const calendar = new Calendar(document.createElement('div'));
+  calendar.options.onHeaderCellAdded = 'test' as any;
+  calendar.render(2024, 10);
 
   expect(calendar.element.outerHTML).toMatchSnapshot();
 });

@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.0...calendar-v0.2.1) (2025-02-25)
+
+
+### Miscellaneous
+
+* **deps:** bump serialize-javascript from 6.0.1 to 6.0.2 ([#25](https://github.com/jpvmrcd/calendar/issues/25)) ([dbee170](https://github.com/jpvmrcd/calendar/commit/dbee170c30364b2908fa4b9adb0cbb9b190bb783))
+* **deps:** update all dependencies ([#20](https://github.com/jpvmrcd/calendar/issues/20)) ([e357835](https://github.com/jpvmrcd/calendar/commit/e3578354d59002b7588b39452b5d736fb690fe57))
+
 ## [0.2.0](https://github.com/jpvmrcd/calendar/compare/calendar-v0.1.2...calendar-v0.2.0) (2024-10-14)
 
 

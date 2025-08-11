@@ -1,6 +1,6 @@
 {
   "name": "@jpvmrcd/calendar",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Lightweight JavaScript library for generating simple HTML table calendar.",
   "keywords": [
     "calendar",

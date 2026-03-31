@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.2.1](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.0...calendar-v0.2.1) (2026-03-31)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump flatted from 3.2.9 to 3.4.2 ([#38](https://github.com/jpvmrcd/calendar/issues/38)) ([217fe52](https://github.com/jpvmrcd/calendar/commit/217fe52a7f63c5e8bc38e73e14a572c5ca23bbba))
+* **deps-dev:** bump form-data from 4.0.0 to 4.0.4 ([#30](https://github.com/jpvmrcd/calendar/issues/30)) ([3279180](https://github.com/jpvmrcd/calendar/commit/327918087b16f67f9678a4551a39ce2f53fc7df2))
+* **deps-dev:** bump serialize-javascript from 7.0.4 to 7.0.5 ([#40](https://github.com/jpvmrcd/calendar/issues/40)) ([ec4c54a](https://github.com/jpvmrcd/calendar/commit/ec4c54a9daaf9d1ad9b9108de7d85388b51b8dcf))
+* **deps:** bump minimatch ([#36](https://github.com/jpvmrcd/calendar/issues/36)) ([fff48a7](https://github.com/jpvmrcd/calendar/commit/fff48a768ad7d5394a35fd5e9d6a84e0eadf4278))
+* **deps:** bump picomatch ([#39](https://github.com/jpvmrcd/calendar/issues/39)) ([1d8a00f](https://github.com/jpvmrcd/calendar/commit/1d8a00f5fcc5b33042e7a57b93f3e632d5ab3f27))
+* **deps:** bump serialize-javascript and @rollup/plugin-terser ([#37](https://github.com/jpvmrcd/calendar/issues/37)) ([074800b](https://github.com/jpvmrcd/calendar/commit/074800bb627efdd9f5e087b14e501de2a8cbedce))
+* **deps:** bump serialize-javascript from 6.0.1 to 6.0.2 ([#25](https://github.com/jpvmrcd/calendar/issues/25)) ([dbee170](https://github.com/jpvmrcd/calendar/commit/dbee170c30364b2908fa4b9adb0cbb9b190bb783))
+* **deps:** update all dependencies ([#20](https://github.com/jpvmrcd/calendar/issues/20)) ([e357835](https://github.com/jpvmrcd/calendar/commit/e3578354d59002b7588b39452b5d736fb690fe57))
+* **deps:** update all dependencies ([#26](https://github.com/jpvmrcd/calendar/issues/26)) ([62527be](https://github.com/jpvmrcd/calendar/commit/62527be750c480ad0dfd63a7c83576ebcd7553ae))
+* **deps:** update all dependencies ([#29](https://github.com/jpvmrcd/calendar/issues/29)) ([d17a391](https://github.com/jpvmrcd/calendar/commit/d17a39119e840acae908a410814db2b1f37e38bb))
+* **deps:** update all dependencies ([#32](https://github.com/jpvmrcd/calendar/issues/32)) ([ab547ee](https://github.com/jpvmrcd/calendar/commit/ab547eea0b6d36e5267276cc286f9684e36f09fc))
+* **deps:** update all dependencies ([#33](https://github.com/jpvmrcd/calendar/issues/33)) ([c6dddf0](https://github.com/jpvmrcd/calendar/commit/c6dddf0ad6369dc0e3b482cb4967742682f05822))
+* **deps:** update all dependencies ([#34](https://github.com/jpvmrcd/calendar/issues/34)) ([0fc33e2](https://github.com/jpvmrcd/calendar/commit/0fc33e2d9917d5793fcd48672c590bbe3ef3db86))
+* **deps:** update dependency rollup to v4.59.0 [security] ([#35](https://github.com/jpvmrcd/calendar/issues/35)) ([b5ac441](https://github.com/jpvmrcd/calendar/commit/b5ac4410110797457fecc68988090d6982572900))
+* fix release please permissions ([#31](https://github.com/jpvmrcd/calendar/issues/31)) ([7e4e7bf](https://github.com/jpvmrcd/calendar/commit/7e4e7bf8ee3a54df4d45b1775e2607640c8a00b6))
+
 ## [0.2.0](https://github.com/jpvmrcd/calendar/compare/calendar-v0.1.2...calendar-v0.2.0) (2024-10-14)
 
 

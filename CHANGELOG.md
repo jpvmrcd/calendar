@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.1...calendar-v0.2.2) (2026-04-02)
+
+
+### Miscellaneous
+
+* update npm-publish.yml to include id-token permission ([#42](https://github.com/jpvmrcd/calendar/issues/42)) ([89eb76b](https://github.com/jpvmrcd/calendar/commit/89eb76b3d780c1595f62b5999a26efabbb0d339e))
+
 ## [0.2.1](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.0...calendar-v0.2.1) (2026-03-31)
 
 

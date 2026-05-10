@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.3...calendar-v0.2.4) (2026-05-10)
+
+
+### Miscellaneous
+
+* fix TypeScript 6 errors ([#47](https://github.com/jpvmrcd/calendar/issues/47)) ([83850d2](https://github.com/jpvmrcd/calendar/commit/83850d20a3382426171b987d608d64a2a6213dc0))
+
 ## [0.2.3](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.2...calendar-v0.2.3) (2026-05-10)
 
 

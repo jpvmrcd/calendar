@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.5](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.4...calendar-v0.2.5) (2026-05-10)
+
+
+### Miscellaneous
+
+* fix publish error ([#49](https://github.com/jpvmrcd/calendar/issues/49)) ([bf19d44](https://github.com/jpvmrcd/calendar/commit/bf19d444155ed81f4a0e626300d5a8930d4282c3))
+
 ## [0.2.4](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.3...calendar-v0.2.4) (2026-05-10)
 
 

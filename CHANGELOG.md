@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.3](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.2...calendar-v0.2.3) (2026-05-10)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @babel/plugin-transform-modules-systemjs ([#46](https://github.com/jpvmrcd/calendar/issues/46)) ([bc3a2b6](https://github.com/jpvmrcd/calendar/commit/bc3a2b68f38fe31acefa525d530d8cd573f44442))
+* **deps:** update all dependencies ([#41](https://github.com/jpvmrcd/calendar/issues/41)) ([8b8144a](https://github.com/jpvmrcd/calendar/commit/8b8144ad6bfcea519aa61c8db629eb47a1fe7e30))
+
 ## [0.2.2](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.1...calendar-v0.2.2) (2026-04-02)
 
 

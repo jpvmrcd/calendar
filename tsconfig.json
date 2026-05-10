@@ -4,20 +4,16 @@
     "declaration": true,
     "outDir": "./",
     "module": "es6",
-    "rootDir": ".",
+    "rootDir": "./src",
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
+    "moduleResolution": "bundler",
     "noFallthroughCasesInSwitch": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": [
-    "src/index.ts"
-  ],
-  "exclude": [
-    "tests/**",
-    "dist"
-  ]
+  "include": ["src/index.ts"],
+  "exclude": ["tests/**", "dist"]
 }

@@ -4,11 +4,9 @@
     "declaration": true,
     "outDir": "./",
     "module": "es6",
-    "target": "es5",
-
+    "rootDir": ".",
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "strict": true,
     "esModuleInterop": true,

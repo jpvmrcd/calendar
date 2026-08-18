@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.6](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.5...calendar-v0.2.6) (2026-08-18)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump ws from 8.18.3 to 8.21.1 ([#53](https://github.com/jpvmrcd/calendar/issues/53)) ([e67b79f](https://github.com/jpvmrcd/calendar/commit/e67b79f9caefd4e285c62c8d3a9cac1038b84324))
+* **deps:** update all dependencies ([#45](https://github.com/jpvmrcd/calendar/issues/45)) ([cd8c3e1](https://github.com/jpvmrcd/calendar/commit/cd8c3e1f4729fad0629ee29f0c302129c5a1f027))
+* **deps:** update all dependencies ([#52](https://github.com/jpvmrcd/calendar/issues/52)) ([656e92a](https://github.com/jpvmrcd/calendar/commit/656e92adc0db27f1620228e3b1ca14649abe26b3))
+* override vulnerable transitive dev dependencies ([#54](https://github.com/jpvmrcd/calendar/issues/54)) ([c093d44](https://github.com/jpvmrcd/calendar/commit/c093d4433ee389a47fc0e358940d14616d36d00e))
+* update overridden vulnerable transitive dev dependencies ([#56](https://github.com/jpvmrcd/calendar/issues/56)) ([12787a3](https://github.com/jpvmrcd/calendar/commit/12787a39e860c862714c5f943a54e3e067996354))
+
 ## [0.2.5](https://github.com/jpvmrcd/calendar/compare/calendar-v0.2.4...calendar-v0.2.5) (2026-05-10)
 
 
